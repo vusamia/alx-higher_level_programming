@@ -32,7 +32,7 @@ if __name__ == "__main__":
         if (already_exists(q)):
             return False
         z = 0
-        while(z < f):
+        while (z < f):
             if abs(ab[z][1] - q) == abs(z - f):
                 return False
             z += 1
